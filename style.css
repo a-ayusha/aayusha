@@ -1,7 +1,7 @@
 body {
     margin: 0;
     font-family: Arial, sans-serif;
-    background: url('images/background.jpg') no-repeat center center fixed;
+    background: url('/background.jpg') no-repeat center center fixed;
     background-size: cover;
     transition: background 1s ease-in-out;
     overflow-x: hidden;
@@ -47,7 +47,7 @@ header {
     transform: translateX(0); /* Remove unnecessary shifting */
     width: 50px;
     height: 50px;
-    background: url('/Frontend/images/spider.svg') no-repeat center center / contain;
+    background: url('/spider.svg') no-repeat center center / contain;
     z-index: 1000;
 }
 
