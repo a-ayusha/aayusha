@@ -1,6 +1,6 @@
 window.addEventListener("scroll", () => {
     let scrollPosition = window.scrollY;
-    document.body.style.background = scrollPosition > 300 ? "linear-gradient(to bottom,rgb(68, 14, 9),rgb(106, 23, 15),rgb(36, 4, 69),rgb(118, 33, 47))"  : "url('images/background.jpg') no-repeat center center fixed";
+    document.body.style.background = scrollPosition > 300 ? "linear-gradient(to bottom,rgb(68, 14, 9),rgb(106, 23, 15),rgb(36, 4, 69),rgb(118, 33, 47))"  : "url('/background.jpg') no-repeat center center fixed";
     document.body.style.backgroundSize = "cover";
 });
 
